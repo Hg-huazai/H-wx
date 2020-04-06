@@ -1,0 +1,9 @@
+<!--pages/components/index.wxml-->
+<view class="box">
+  <block wx:for="{{components}}" wx:key="index">
+    <navigator class="item" url="./scroll/index">
+      <text>{{item.theme}}</text>
+      <text>{{item.text}}</text>
+    </navigator>
+  </block>
+</view>

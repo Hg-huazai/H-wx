@@ -1,0 +1,28 @@
+/* components/scroll/scroll.wxss */
+.scroll {
+  height: 900rpx;
+  display: flex;
+}
+.left {
+    height: 100% ;
+    flex: 2;
+    background-color: pink;
+    text-align: center;
+  }
+  .left .left-item {
+    padding: 20rpx;
+    border-bottom: 1rpx solid #999;
+  }
+    .left .left-item.leftactive {
+    background-color: skyblue;
+  }
+  .right {
+    height: 100%;
+    flex: 5;
+    background-color: skyblue;
+    text-align: center;
+  }
+    .right .right-item {
+    padding: 20rpx;
+    border-bottom: 1rpx solid #999;
+  }

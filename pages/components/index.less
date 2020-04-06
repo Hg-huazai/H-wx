@@ -1,0 +1,29 @@
+/* pages/components/index.wxss */
+.box {
+  display: flex;
+  flex-wrap: wrap;
+  .item {
+    box-sizing: border-box;
+    width: 42.5%;
+    text-align: center;
+    margin-bottom: 30rpx;
+    padding: 30rpx 20rpx;
+    // display: flex;
+    // align-items: center;
+    height: 200rpx;
+    background-color: pink;;
+    &:nth-child(2n-1) {
+      margin-left: 5%;
+      margin-right: 2.5%;
+    }
+    &:nth-child(2n) {
+      margin-left: 2.5%;
+      margin-right: 5%;
+    }
+    text {
+      display: block;
+      
+    }
+  }
+  
+}
