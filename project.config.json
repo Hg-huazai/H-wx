@@ -50,6 +50,27 @@
 					"id": -1,
 					"name": "less测试",
 					"pathName": "pages/home/less",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "nav",
+					"pathName": "pages/components/nav/index",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "永久测试",
+					"pathName": "pages/ceshi/cehsi",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "画布",
+					"pathName": "pages/canvas",
 					"scene": null
 				}
 			]

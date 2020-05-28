@@ -2,10 +2,13 @@
   "pages": [
     "pages/components/index",
     "pages/components/scroll/index",
+    "pages/components/nav/index",
     "pages/loading/index",
     "pages/home/index",
     "pages/index/index",
-    "pages/logs/logs"
+    "pages/logs/logs",
+    "pages/ceshi/cehsi",
+    "pages/canvas"
   ],
   "window": {
     "backgroundTextStyle": "light",
@@ -16,18 +19,19 @@
   "style": "v2",
   "sitemapLocation": "sitemap.json",
   "tabBar": {
-    "list": [{
-      "pagePath": "pages/components/index",
-      "text": "组件",
-      "iconPath": "/styles/img/icon1.png",
-      "selectedIconPath": "/styles/img/icon1_active.png"
-    },
-    {
-      "pagePath": "pages/loading/index",
-      "text": "扩展中",
-      "iconPath": "/styles/img/icon2.png",
-      "selectedIconPath": "/styles/img/icon2_active.png"
-    }
+    "list": [
+      {
+        "pagePath": "pages/components/index",
+        "text": "组件",
+        "iconPath": "/styles/img/icon1.png",
+        "selectedIconPath": "/styles/img/icon1_active.png"
+      },
+      {
+        "pagePath": "pages/loading/index",
+        "text": "扩展中",
+        "iconPath": "/styles/img/icon2.png",
+        "selectedIconPath": "/styles/img/icon2_active.png"
+      }
     ]
   }
 }

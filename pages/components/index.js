@@ -7,8 +7,8 @@ Page({
   data: {
     components: [
       {theme: 'scroll', text: '左右联动'},
-      { theme: '待定', text: '待定待定' },
-      { theme: '待定', text: '待定待定' },
+      { theme: 'nav', text: '待定待定' },
+      { theme: '瀑布流', text: '待定待定' },
       { theme: '待定', text: '待定待定' },
       { theme: '待定', text: '待定待定' },
       { theme: '待定', text: '待定待定' },
