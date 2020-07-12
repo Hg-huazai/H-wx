@@ -1,0 +1,10 @@
+/* pages/components/luyin/luyin.wxss */
+.start, .play {
+  width: 200rpx;
+  height: 200rpx;
+  margin: 0 auto;
+  background-color: pink;
+  line-height: 200rpx;
+  text-align: center;
+  margin-top: 50rpx;
+}

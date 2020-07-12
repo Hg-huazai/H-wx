@@ -71,6 +71,13 @@
 					"id": -1,
 					"name": "画布",
 					"pathName": "pages/canvas",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "录音",
+					"pathName": "pages/components/luyin/luyin",
 					"scene": null
 				}
 			]

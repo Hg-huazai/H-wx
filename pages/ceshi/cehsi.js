@@ -1,19 +1,11 @@
-// pages/components/index.js
+// pages/ceshi/cehsi.js
 Page({
 
   /**
    * 页面的初始数据
    */
   data: {
-    components: [
-      { theme: 'scroll', text: '左右联动', url: './scroll/index'},
-      { theme: 'nav', text: '待定待定' },
-      { theme: '瀑布流', text: '待定待定' },
-      { theme: '音频', text: '录音', url: './luyin/luyin'},
-      { theme: '待定', text: '待定待定' },
-      { theme: '待定', text: '待定待定' },
-      { theme: '待定', text: '待定待定' },
-    ]
+
   },
 
   /**

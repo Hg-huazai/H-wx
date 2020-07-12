@@ -1,0 +1,5 @@
+<!--pages/components/luyin/luyin.wxml-->
+<view>
+  <view class="start" bindtouchstart="start" bindtouchend="end">长按录音</view>
+  <view class="play" bindtap="play">播放</view>
+</view>
