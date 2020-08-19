@@ -1,2 +1,4 @@
 <!--pages/ceshi/cehsi.wxml-->
-<text>pages/ceshi/cehsi.wxml</text>
+<view>
+  <button open-type="getUserInfo" bindgetuserinfo="getUserInfo">{{logintext}}</button>
+</view>
