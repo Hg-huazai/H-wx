@@ -1,21 +1,23 @@
-// pages/components/index.js
+// pages/components/float/float.js
 Page({
 
   /**
    * 页面的初始数据
    */
   data: {
-    components: [
-      { theme: 'scroll', text: '左右联动', url: './scroll/index', id: 1},
-      { theme: 'nav', text: '待定待定', id: 2},
-      { theme: '瀑布流', text: '待定待定', id: 3},
-      { theme: '音频', text: '录音', url: './luyin/luyin', id: 4},
-      { theme: '弹出框', text: '完成', url: './float/float', id: 5 },
-      { theme: '弹出遮罩层', text: '待定待定', url: './hidden/hidden', id: 6},
-      { theme: '授权登录', text: '待定待定', id: 7},
-    ]
+    hongbao:[
+        { money: 2.5, mix: 30, time: '2020-04-20' },
+        { money: 4, mix: 60, time: '2020-06-29' }
+      ]
   },
-
+  youhuitap(e){
+    // console.log(e);
+    // console.log('点击领取');
+      wx.showToast({
+        title: '领取成功，请到我的优惠券查看吧！',
+        icon: 'none',
+      });
+  },
   /**
    * 生命周期函数--监听页面加载
    */

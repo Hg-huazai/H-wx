@@ -85,16 +85,18 @@ Component({
   /**
    * 生命周期函数--监听页面加载
    */
-  onLoad: function (options) {
+  ready: function (options) {
     //创建节点选择器
     var _this = this
     var heightArr = [];
     let s = 0;
-    var query = wx.createSelectorQuery();
-    query.selectAll('.pesticide').boundingClientRect()
-    // query.selectViewport().scrollOffset()
-    query.exec(function (react) {
-      react[0].forEach((res) => {
+
+
+    // SelectorQuery.in	将选择器的选取范围更改为自定义组件 component 内
+    let query = wx.createSelectorQuery().in(this);
+    // boundingClientRect   返回信息
+    query.selectAll('.pesticide').boundingClientRect((react)=>{
+      react.forEach((res) => {
         s += res.height;
         heightArr.push(s)
       })
@@ -102,7 +104,6 @@ Component({
       _this.setData({
         heightArr: heightArr
       })
-
     })
     query.select('.right-item').boundingClientRect()
     query.exec(function (res) {
@@ -112,7 +113,6 @@ Component({
       _this.setData({
         rightheight: rightheight
       })
-
     })
   },
 })

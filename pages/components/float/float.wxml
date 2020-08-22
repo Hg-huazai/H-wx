@@ -1,0 +1,4 @@
+<!--pages/components/float/float.wxml-->
+<view>
+  <h-float bind:getyouhui="youhuitap" hongbao="{{hongbao}}"/>
+</view>

@@ -1,0 +1,32 @@
+<!--pages/components/float/float.wxml-->
+<!--components/h-float/h-float.wxml-->
+<view>
+  <view class="float {{float ? 'active' : ''}}" catchtouchmove="true">
+    <view class="bg" bindtap="bgtap"></view>
+    <view class="box">
+      <view class="box-item">
+        <view class="item1">
+          <text>领取优惠券</text>
+        </view>
+        <view class="item" wx:for="{{hongbao}}">
+          <view class="left-l left">
+            <text>￥</text>
+            <text>{{item.money}}</text>
+          </view>
+          <view class="left-l right">
+            <text>领取优惠券</text>
+            <text>满{{item.mix}}元可用</text>
+            <text>有效期至{{item.time}}</text>
+          </view>
+          <view class="clear"></view>
+        </view>
+        <i class="iconfont icon-cuohao-shezhi-zuozherenzhengzhuangtaitishitubiao" bindtap="closetap"></i>
+      </view>
+      <view class="button">
+        <button size="mini" bindtap="getyouhui">立即领取</button>
+      </view>
+      
+    </view>
+  </view>
+</view>
+

@@ -5,7 +5,7 @@
     <view class="left-item {{index == navActive ? 'leftactive' : ''}}" wx:for="{{leftlist}}" bindtap="lefttap" wx:key="{{index}}" data-index="{{index}}" data-id="h{{item.id}}">{{item.name}}</view>
   </scroll-view>
   
-  <scroll-view class="right" scroll-y scroll-into-view="{{contentActive}}" scroll-with-anmiation bindscroll="onscroll">
+  <scroll-view class="right" scroll-y scroll-into-view="{{contentActive}}" scroll-with-animation bindscroll="onscroll">
     <view wx:for="{{rightlist}}" id="h{{item.id}}" wx:key="{{index}}" class="pesticide">
       <view>{{item.name}}</view>
       <view class="right-item" wx:for="{{item.list}}" wx:for-item="rightitem" wx:key="{{index}}">{{rightitem}}</view>

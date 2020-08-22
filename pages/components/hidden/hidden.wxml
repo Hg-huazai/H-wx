@@ -1,0 +1,11 @@
+<!--pages/components/hidden/hidden.wxml-->
+<view>
+  <button bindtap="showtap">弹出遮罩层</button>
+  <view class="float {{float ? 'active' : ''}}" catchtouchmove="true">
+    <view class="bg" bindtap="bgtap"></view>
+    <view class="box">
+      
+      内容
+    </view>
+  </view>
+</view>

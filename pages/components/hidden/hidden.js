@@ -1,19 +1,28 @@
-// pages/components/index.js
+// pages/components/hidden/hidden.js
 Page({
 
   /**
    * 页面的初始数据
    */
   data: {
-    components: [
-      { theme: 'scroll', text: '左右联动', url: './scroll/index', id: 1},
-      { theme: 'nav', text: '待定待定', id: 2},
-      { theme: '瀑布流', text: '待定待定', id: 3},
-      { theme: '音频', text: '录音', url: './luyin/luyin', id: 4},
-      { theme: '弹出框', text: '完成', url: './float/float', id: 5 },
-      { theme: '弹出遮罩层', text: '待定待定', url: './hidden/hidden', id: 6},
-      { theme: '授权登录', text: '待定待定', id: 7},
-    ]
+    float: true,
+  },
+  showtap() {
+    this.setData({
+      float: false,
+    })
+  },
+  bgtap() {
+    // console.log('点击了背景')
+    this.setData({
+      float: true,
+    })
+  },
+  closetap() {
+    // console.log('点击了关闭')
+    this.setData({
+      float: true,
+    })
   },
 
   /**
