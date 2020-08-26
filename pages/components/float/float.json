@@ -1,0 +1,6 @@
+{
+  "usingComponents": {
+    "h-float": "/components/float/float"
+  }
+  
+}

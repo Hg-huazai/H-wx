@@ -22,7 +22,7 @@
 	},
 	"compileType": "miniprogram",
 	"libVersion": "2.10.4",
-	"appid": "wx1e00fe39bc4b0919",
+	"appid": "wx4e8ef14263d01359",
 	"projectname": "H-wx",
 	"debugOptions": {
 		"hidedInDevtools": []
@@ -91,8 +91,20 @@
 				},
 				{
 					"id": -1,
+<<<<<<< HEAD
 					"name": "登录",
 					"pathName": "pages/components/login/login",
+=======
+					"name": "左右联动",
+					"pathName": "pages/components/scroll/index",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "弹出框（红包领取）",
+					"pathName": "pages/components/float/float",
+>>>>>>> 5b9b22a9e63c9b65892667c9852298731f8b02df
 					"scene": null
 				}
 			]

@@ -3,13 +3,15 @@
     "pages/components/index",
     "pages/components/scroll/index",
     "pages/components/nav/index",
+    "pages/components/luyin/luyin",
+    "pages/components/float/float",
     "pages/loading/index",
     "pages/home/index",
     "pages/index/index",
     "pages/logs/logs",
     "pages/ceshi/cehsi",
-    "pages/components/luyin/luyin",
-    "pages/components/login/login"
+    "pages/components/login/login",
+    "pages/components/hidden/hidden"
   ],
   "window": {
     "backgroundTextStyle": "light",

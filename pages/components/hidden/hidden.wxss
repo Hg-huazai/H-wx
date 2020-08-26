@@ -1,0 +1,35 @@
+/* pages/components/hidden/hidden.wxss */
+.left-l {
+  float: left;
+}
+.right-r {
+  float: left;
+}
+.clear {
+  clear: both;
+}
+.float.active {
+  display: none;
+}
+.float {
+  height: 100vh;
+  width: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 10;
+  
+}
+.float .bg{
+  height: 100%;
+  width: 100%;
+  background-color: rgba(0,0,0,.4);
+}
+.float .box{
+  width: 80%;
+  position: absolute;
+  top: 0;
+  text-align: center;
+  margin: 200rpx 10%;
+  box-sizing: border-box;
+}
