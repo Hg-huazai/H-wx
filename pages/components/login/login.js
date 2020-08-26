@@ -1,21 +1,31 @@
-// pages/components/index.js
+// pages/components/login/login.js
 Page({
 
   /**
    * 页面的初始数据
    */
   data: {
-    components: [
-      { theme: 'scroll', text: '左右联动', url: './scroll/index'},
-      { theme: 'nav', text: '待定待定' },
-      { theme: '瀑布流', text: '待定待定' },
-      { theme: '音频', text: '录音', url: './luyin/luyin'},
-      { theme: '登录', text: '获取唯一的appid', url: './login/login' },
-      { theme: '待定', text: '待定待定' },
-      { theme: '待定', text: '待定待定' },
-    ]
-  },
 
+  },
+  userinfo(e){
+    wx.login({
+      // 获取code
+      success: res=> {
+        // console.log(res.code)
+        wx.request({
+          url: 'https://yqw.namicity.cn/yanxuan/auth_api/doLogin',
+          data: {
+            js_code: res.code,
+            appId: 'wx1e00fe39bc4b0919', 
+            // wxb700a58c6ab5b8dd
+          },
+          success: res=>{
+            console.log(res)
+          }
+        })
+      }
+    })
+  },
   /**
    * 生命周期函数--监听页面加载
    */

@@ -8,7 +8,8 @@
     "pages/index/index",
     "pages/logs/logs",
     "pages/ceshi/cehsi",
-    "pages/components/luyin/luyin"
+    "pages/components/luyin/luyin",
+    "pages/components/login/login"
   ],
   "window": {
     "backgroundTextStyle": "light",

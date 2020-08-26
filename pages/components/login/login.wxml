@@ -1,0 +1,4 @@
+<!--pages/components/login/login.wxml-->
+<view>
+  <button open-type="getUserInfo" bindgetuserinfo="userinfo">登录</button>
+</view>
